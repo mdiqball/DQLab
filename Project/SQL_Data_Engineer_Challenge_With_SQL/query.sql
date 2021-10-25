@@ -25,6 +25,13 @@ UNION
 SELECT nama FROM table2
 perintah SQL diatas akan menghasilkan berapa row? 6
 
+_INNER JOIN
+
+SELECT * FROM table1
+INNER JOIN table2 ON table2.nama = table1.nama
+Perintah SQL berikut akan menghasilkan berapa row? 4
+
+
 _PRODUK DQLab MART
 mendapatkan harga antara 50000 dan 150000 dari tabel ms_produk,  dengan kolom yang harus ditampilkan no_urut, kode_produk, nama_produk, harga.
 -- answer : select * from ms_produk where harga between 50000 and 150000 

@@ -23,7 +23,7 @@ _UNION
 SELECT nama FROM table1
 UNION 
 SELECT nama FROM table2
-perintah SQL diatas akan menghasilkan berapa row? 5
+perintah SQL diatas akan menghasilkan berapa row? 6
 
 _PRODUK DQLab MART
 mendapatkan harga antara 50000 dan 150000 dari tabel ms_produk,  dengan kolom yang harus ditampilkan no_urut, kode_produk, nama_produk, harga.
